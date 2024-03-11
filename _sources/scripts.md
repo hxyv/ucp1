@@ -176,3 +176,12 @@ mafft --maxiterate 1000 --localpair --thread 30 UCP1.combined.fa > UCP1.combined
 ```bash
 FastTree UCP1.combined.aln.fa > UCP1.tree
 ```
+
+<script src="https://utteranc.es/client.js"
+        repo="hxyv/hxyv.github.io"
+        issue-term="pathname"
+        label="✨💬✨"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
