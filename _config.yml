@@ -21,7 +21,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/hxyv/ucp1  # Online location of your book
+  url: https://github.com/hxyv/ucp1/  # Online location of your book
   path_to_book: docs  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
@@ -29,7 +29,8 @@ repository:
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
   use_issues_button: true
-  use_repository_button: true
+  use_repository_button: https://hxyv.github.io/ucp1/
+  baseurl: 
   comments:
     utterances:
       repo: "hxyv/ucp1"
